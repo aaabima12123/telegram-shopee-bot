@@ -8,8 +8,8 @@ from openpyxl import Workbook
 import logging
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+TOKEN = os.getenv("7902562393:AAEyVh_TaJ37T2SFxXT6zDykMfF43Ln7mYA")
+ADMIN_ID = int(os.getenv("6526506965", "0"))
 
 user_data = {}
 excel_file = "data_user.xlsx"
